@@ -4,7 +4,7 @@ const BASE_URL = "https://api.themoviedb.org/3";
 const fetchMovies = async (path) => {
   if (!API_KEY) {
     throw new Error(
-      "TMDB API key is missing. Set VITE_TMDB_API_KEY in frontend1/.env.local."
+      "TMDB API key is missing. Set VITE_TMDB_API_KEY in frontend/.env.local."
     );
   }
 
